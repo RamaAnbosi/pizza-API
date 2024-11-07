@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 247, 236);
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 179, 205);
+    background-color:rgb(161, 85, 30) ;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color:rgb(159, 68, 3);
+}
+.recipe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgb(249, 220, 184);
+}
+.recipe img{
+    width: 550px;
+    height: 300px;
+}
